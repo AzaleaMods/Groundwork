@@ -32,7 +32,7 @@ dependencies {
 
 loom {
 	mods {
-		"template" {
+		"groundwork" {
 			sourceSet sourceSets.main
 		}
 	}
