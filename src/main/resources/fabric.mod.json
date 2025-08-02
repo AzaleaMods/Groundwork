@@ -1,29 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "template",
+	"id": "groundwork",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "Description",
+	"name": "Groundwork",
+	"description": "A library mod with many features",
 	"authors": [
-		"Me!"
+		"Mercury",
+		"supertoady",
+		"HollowedWanderer",
+		"Nitron",
+		"TheTrueYak"
 	],
 	"contact": {
-		"sources": "https://github.com/AzaleaMods/Fabric-Template",
-		"issues": "https://github.com/AzaleaMods/Fabric-Template/issues"
+		"sources": "https://github.com/AzaleaMods/Groundwork",
+		"issues": "https://github.com/AzaleaMods/Groundwork/issues"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template/icon.png",
+	"icon": "assets/groundwork/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"io.azalea.template.TemplateMod"
+          "io.azalea.groundwork.GroundworkMod"
 		],
 		"client": [
-			"io.azalea.template.TemplateModClient"
+			"io.azalea.groundwork.GroundworkClient"
 		]
 	},
 	"mixins": [
-		"template.mixins.json"
+		"groundwork.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

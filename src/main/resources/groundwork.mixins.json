@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "io.azalea.template.mixin",
+	"package": "io.azalea.groundwork.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
 	"client": [],
