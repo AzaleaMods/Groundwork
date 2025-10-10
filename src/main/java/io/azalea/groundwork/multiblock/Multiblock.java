@@ -6,12 +6,13 @@ import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryCodecs;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntryList;
+import net.minecraft.structure.StructureTemplate;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.dynamic.Codecs;
 
 import java.util.Map;
 
-public class Multiblock {
+public record Multiblock(StructureTemplate structure, boolean canRotate, Map<Block, RegistryEntryList<Block>> tags) {
 
     public record Data(
             Identifier structure,
