@@ -1,3 +1,8 @@
-# Azalea Template Mod
+# Groundwork
 
-Currently available for 1.21.1 and 1.21.8 (stable & latest versions) and will be updated as new latest versions come out.
+A library developed by Azalea for personal and public use.
+
+## Provides
+- Multiblock API
+- Pipe / Transfer API
+- Dialogue API
