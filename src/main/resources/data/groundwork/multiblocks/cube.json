@@ -1,0 +1,6 @@
+{
+  "id": "groundwork:cube",
+  "structure": "groundwork:multiblocks/structures/cube",
+  "can_rotate": true,
+  "tags": {}
+}
